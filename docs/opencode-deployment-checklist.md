@@ -30,6 +30,18 @@ The plugin helper does not register agents or commands. The commands and agents 
 
 Use the installer instead of manually copying files. It synchronizes managed OpenCode assets, merges `opencode.json`, and protects existing target files with conflict checks and backups.
 
+From GitHub, preview the install with one command:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Okabe8832/Automated-novel-producer-release/main/install.sh | bash -s -- /path/to/target-project
+```
+
+Apply the GitHub installer after reviewing the dry-run report:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Okabe8832/Automated-novel-producer-release/main/install.sh | bash -s -- /path/to/target-project --write
+```
+
 Preview the install first:
 
 ```bash

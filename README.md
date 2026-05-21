@@ -6,3 +6,17 @@
 
 使用方式：配置OMO（ohmyopencode）插件，使用/novel-init进行初始化或查看初始化情况。
 使用/novel-branch与相关命令查看或创建项目分支，使用/novel-autorun进入intake和plan环节得到小说基本要求后跳转入自动生产环节。
+
+## Install Into Another OpenCode Project
+
+Preview the deployment:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Okabe8832/Automated-novel-producer-release/main/install.sh | bash -s -- /path/to/target-project
+```
+
+Apply the deployment:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Okabe8832/Automated-novel-producer-release/main/install.sh | bash -s -- /path/to/target-project --write
+```
